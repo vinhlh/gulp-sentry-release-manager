@@ -1,4 +1,4 @@
-# gulp-sentry-release-manager
+# gulp-sentry-release-manager [![Build status](https://travis-ci.org/vinhlh/gulp-sentry-release-manager.svg?branch=master)](https://travis-ci.org/vinhlh/gulp-sentry-release-manager)
 
 ## Usage
 
