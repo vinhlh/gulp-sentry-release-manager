@@ -1,4 +1,4 @@
-# gulp-sentry-release-manager [![Build status](https://travis-ci.org/vinhlh/gulp-sentry-release-manager.svg?branch=master)](https://travis-ci.org/vinhlh/gulp-sentry-release-manager)
+# gulp-sentry-release-manager [![Build status](https://travis-ci.org/vinhlh/gulp-sentry-release-manager.svg?branch=master)](https://travis-ci.org/vinhlh/gulp-sentry-release-manager) [![Code Climate](https://codeclimate.com/github/vinhlh/gulp-sentry-release-manager/badges/gpa.svg)](https://codeclimate.com/github/vinhlh/gulp-sentry-release-manager) [![Test Coverage](https://codeclimate.com/github/vinhlh/gulp-sentry-release-manager/badges/coverage.svg)](https://codeclimate.com/github/vinhlh/gulp-sentry-release-manager/coverage)
 
 ## Usage
 
