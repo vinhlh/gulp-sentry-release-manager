@@ -2,6 +2,7 @@ jest.mock('../lib/utils', () => ({
   makeError: jest.fn(value => value),
   toString: jest.fn(() => 'awesome-error')
 }))
+jest.mock('gulp-util')
 
 import createHttpHandler from '../lib/createHttpHandler'
 import { makeError, toString } from '../lib/utils'
