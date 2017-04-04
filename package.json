@@ -10,7 +10,7 @@
     "build": "rollup -c",
     "watch": "rollup -c -w",
     "pretest": "npm run build",
-    "test": "jest",
+    "test": "jest --coverage",
     "prepublish": "npm test"
   },
   "repository": "vinhlh/gulp-sentry-release-manager",
