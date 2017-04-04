@@ -29,3 +29,19 @@ countries.map(country => {
 
 gulp.task('default', ['create-release-ph'])
 ```
+
+## Options
+
+- `host` - host name of Sentry servers. Default = `https://sentry.io`.
+- `org` - organization slug (required)
+- `project` - project slug (required)
+- `apiKey` - api key with `project:releases` permission (required)
+- `version` - version need to be deployed (required)
+- `ignoreConflict` - ignore already exist errors. Default = `true`.
+- `maxRetries` - the number of retries when having a failure. Default = `5`.
+
+## APIs
+
+- `releaseManager.create` - create the release.
+- `releaseManager.remove` - remove the release.
+- `releaseManager.upload` - upload source maps to the release.
