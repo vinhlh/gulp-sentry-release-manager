@@ -1,4 +1,4 @@
-import { validateRequired } from '../lib/createReleaseManager'
+import { validateRequired } from '../lib/utils'
 
 describe('validateRequired', () => {
   it('should throws an error', () => {

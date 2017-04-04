@@ -1,4 +1,5 @@
-import { makeError, PLUGIN_NAME } from '../lib/createReleaseManager'
+import { PLUGIN_NAME } from '../lib/constants'
+import { makeError } from '../lib/utils'
 import { PluginError } from 'gulp-util'
 
 describe('makeError', () => {

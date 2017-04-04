@@ -1,4 +1,4 @@
-import { makeRequestParams } from '../lib/createReleaseManager'
+import makeRequestParams from '../lib/makeRequestParams'
 
 describe('makeRequestParams', () => {
   const requestParams = makeRequestParams({
