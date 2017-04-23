@@ -22,7 +22,8 @@ countries.map(country => {
   gulp.task(`remove-release-${country}`, releaseManager.remove)
 
   gulp.task(`upload-${country}`, function() {
-    gulp.src('source-maps/*.map')
+    // `base` is important, is relative to your CDN URL
+    gulp.src('static/js/*.map', { base: 'static/' })
       .pipe(releaseManager.upload())
   })
 })
