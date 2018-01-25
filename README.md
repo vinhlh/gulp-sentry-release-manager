@@ -40,6 +40,7 @@ gulp.task('default', ['create-release-ph'])
 - `version` - version need to be deployed (required)
 - `ignoreConflict` - ignore already exist errors. Default = `true`.
 - `maxRetries` - the number of retries when having a failure. Default = `5`.
+- `sourceMapBasePath` - The base path of source maps. Default is `~/`.
 
 ## APIs
 
