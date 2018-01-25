@@ -5,11 +5,12 @@ const countries = ['ph']
 
 countries.map(country => {
   const releaseManager = createReleaseManager({
-    org: 'awesome',
-    project: `project-${country}`,
+    org: 'zalora',
+    project: `lite`,
     apiKey: 'xxx',
     version: '0.0.1',
-    host: 'https://awesome.zalora.io'
+    host: 'https://sentry.prod.zalora.io',
+    sourceMapBasePath: 'https://lite.com/sg/0.0.1/'
   })
 
   gulp.task(`create-release-${country}`, releaseManager.create)
