@@ -1,6 +1,6 @@
 {
   "name": "gulp-sentry-release-manager",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Create Sentry Release with failure tolerance",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
